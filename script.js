@@ -72,7 +72,7 @@ function logout(){
     "loggedInUser"
   );
 
-  alert("Logout berhasil!");
+  alert("Yey, logout berhasil!");
 
   window.location.reload();
 
