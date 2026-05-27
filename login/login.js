@@ -25,7 +25,7 @@ if(loginForm){
 
     if(
 
-      (username === "admin" &&
+      (username === "heri" &&
       password === "123")
 
       ||
@@ -45,7 +45,7 @@ if(loginForm){
         username
       );
 
-      alert("Login berhasil!");
+      alert("Yey, login berhasil!");
 
       window.location.href =
       "../index.html";
@@ -53,7 +53,7 @@ if(loginForm){
     }else{
 
       alert(
-        "Username atau password salah!"
+        "WADUH! Username atau password salah!"
       );
 
     }
@@ -99,7 +99,7 @@ if(registerForm){
 
     );
 
-    alert("Register berhasil!");
+    alert("Pendaftaran berhasil! Selamat datang");
 
     window.location.href =
     "login.html";
