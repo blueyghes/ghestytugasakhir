@@ -29,7 +29,7 @@ body{
 }
 
 .logo-img{
-  width:35px;
+  width:50px;
   object-fit:contain;
   transition:0.3s;
 }
