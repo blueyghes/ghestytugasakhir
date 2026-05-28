@@ -28,8 +28,14 @@ body{
   backdrop-filter:blur(10px);
 }
 
-.logo{
-  color:#8fd3ff;
+.logo-img{
+  width:140px;
+  object-fit:contain;
+  transition:0.3s;
+}
+
+.logo-img:hover{
+  transform:scale(1.05);
 }
 
 .nav-links{
